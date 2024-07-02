@@ -1,0 +1,28 @@
+//will do comparison of same datatypes
+console.log(2==1)
+console.log(2>=1)
+
+//now comparisons of different datatypes\
+
+console.log("2">1)
+console.log("01"==1)
+//here note that the js is automaticaly converting string data intonumeric number for comparison and is not giving error
+
+//now comparison of null with zero
+console.log(null>0)
+console.log(null==0)
+//above two console statements are false
+
+//but
+console.log(null>=0)
+//is true because the reason is that an equality check == and comparisons work differently
+//comparisons convert null to a number, trating it as zero thats why null>=0 is true and null>0 is false.
+
+
+
+//now === which is strict check
+//it checks the datatype during equality
+
+console.log("01"===1)
+//which is false
+// because one is string and the other is number
