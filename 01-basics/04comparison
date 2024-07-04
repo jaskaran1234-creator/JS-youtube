@@ -36,3 +36,26 @@ console.log("01"===1)
 // Premitive contain : string,number,boolean,null,undefined,symbol,bigint
 
 // Reference : arrays,functions and objects.
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+//stack(premitive), Heap(non premitive or reference)
+
+let myyoutubename="jaskaran"
+
+let anothername=myyoutubename
+console.log(myyoutubename)
+console.log(anothername)
+
+let userone={
+    email:"user@google.com",
+    upi:"user@bl"
+
+}
+let usertwo=userone
+usertwo.email="jaskaran@google.com"
+
+console.log(userone.email)
+console.log(usertwo.email)
